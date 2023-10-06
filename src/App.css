@@ -1,0 +1,317 @@
+body {
+  margin: 0px;
+  background-color: #494a4e;
+}
+
+nav {
+  overflow: hidden;
+  position: fixed;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  z-index: 1;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  padding-inline-end: 10px;
+  padding-inline-start: 10px;
+}
+
+.title {
+  color: whitesmoke;
+  margin-right: auto;
+  padding: 10px;
+}
+
+button {
+  width: 75px;
+  height: 40px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.authBody {
+  display: flex;
+}
+
+form {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+input[type="text"],
+input[type="password"] {
+  display: block;
+  height: 20px;
+}
+
+.authInput {
+  margin: 10px;
+  border-radius: 10px;
+  border-color: #bd98e0;
+  border-width: 2px;
+  padding: 3px;
+}
+
+.authBody {
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+.text {
+  color: white;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.left:hover {
+  background-color: #bd98e0;
+}
+
+.right:hover {
+  background-color: #bd98e0;
+}
+
+.left {
+  left: 0;
+  background-color: #e7daf3;
+  border-right: 5px solid red;
+}
+
+.right {
+  right: 0;
+  background-color: #e7daf3;
+  border-left: 2px solid black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card {
+  background-color: #f3c6f2;
+  box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.card:hover {
+  background-color: #bd98e0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.title {
+  color: azure;
+  text-align: center;
+}
+
+.link {
+  color: azure;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+  font-weight: bold;
+}
+
+.form-group {
+  background-color: #fbedfb;
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  padding: 1%;
+  padding-top: 0%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* .form-group:hover {
+  background-color: #bd98e0;
+} */
+
+.createJobEle {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 100%;
+  font-weight: bold;
+}
+
+/*address*/
+
+textarea,
+input,
+label {
+  margin: 4px 10px;
+  font: 2rem;
+}
+
+/* .title {
+  width: 75%;
+} */
+
+/* .title {
+  float: left;
+  width: 100%;
+  font-weight: bold;
+  height: 10%;
+} */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.error {
+  color: red;
+  padding: 0px;
+  margin: 0px;
+}
+
+.jobCard {
+  width: 250px;
+  height: 300px;
+  background-color: #fcfbf4;
+  color: #21222a;
+  margin: 2px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px -1px white(0, 0, 0, 0.75);
+  border-radius: 10px;
+  /* display: flex; */
+  display: inline-block;
+  /* flex-direction: row; */
+  align-items: center;
+  text-align: center;
+}
+
+.backJobCard {
+  width: 250px;
+  height: 300px;
+  background-color: antiquewhite;
+  color: #21222a;
+  margin: 2px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px -1px white(0, 0, 0, 0.75);
+  border-radius: 10px;
+  /* display: flex; */
+  display: inline-block;
+  /* flex-direction: row; */
+  align-items: center;
+  text-align: center;
+}
+
+div > h4 {
+  margin: 2px;
+}
+
+.note {
+  color: #b44a4a;
+}
+
+.collapsible {
+  background-color: #ddd;
+  color: BLACK;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: 0.5px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.active,
+.collapsible:hover {
+  background-color: #aaa;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: 0.5px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-none {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.content-block {
+  width: 76%;
+  /* margin: 1px; */
+  padding: 10px;
+  /* padding: 0 18px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.update-Heading {
+  margin: 0px;
+  padding: 0px;
+}
+
+.delete {
+  background-color: rgb(241, 96, 96);
+  border: none;
+}
+
+.delete:hover {
+  background-color: red;
+  border: none;
+}
+
+.create {
+  background-color: #e687e4;
+  border: none;
+}
+
+.create:hover {
+  background-color: #cf79cd;
+  border: none;
+}
